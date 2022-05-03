@@ -48,3 +48,59 @@ li {
     cursor: pointer;
     font-weight: 500;
 }
+
+
+.section-main{
+    height: 400px;
+    font-family: 'Cinzel', serif;
+    background-color: #1B3840;
+    color: #fff;
+}
+
+.box-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.box-main .box-text {
+    width: 30%;
+    text-align: center;
+}
+
+.box-text h1 {
+    font-size: 3rem;
+}
+
+.button {
+    margin-top: 30px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 20px;
+    border: 0px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    background-color: #859398;
+}
+
+.button:hover {
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+/* .section-books-movies {
+height: 400px;
+
+} */
