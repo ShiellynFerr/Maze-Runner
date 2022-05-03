@@ -100,7 +100,56 @@ li {
     transform: scale(0.95);
 }
 
-/* .section-books-movies {
-height: 400px;
+.section-books-movies {
+ font-family: 'Cinzel', serif;
+ background-color: #3F5137;
+ color: #B2B179;
+}
 
-} */
+
+.movies {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.movies .figure-movies {
+    display: flex;
+    flex-direction: column;
+     margin: 0 auto;
+    align-items: center;
+}
+
+.figure-movies h2 {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+.movie-img{
+    width: 250px;
+    height: 300px;
+}
+.characters{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.characters h2{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.characters .figure-characters {
+     width: 900px;
+     display: flex;
+    flex-wrap: wrap;
+}
+.characters .chac-img{
+   display: inline-block;
+   width: 450px;
+   height: 350px;
+}
