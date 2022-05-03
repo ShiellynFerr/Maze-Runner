@@ -1,0 +1,50 @@
+/* Importando fonte */
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400;500;600;700;800&family=Poppins:wght@200;400;500&display=swap');
+
+/* Resetando alguns  estilos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Estilizando o header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #3F5137;
+    font-family: 'Cinzel', serif;
+}
+
+.header-title {
+   font-size: 32px;
+   padding: 10px 10px;
+   color: #B2B179;
+}
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+    padding: 10px 10px;
+}
+
+.header-item {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #B2B179;
+    cursor: pointer;
+    font-weight: 500;
+}
