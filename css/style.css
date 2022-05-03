@@ -50,6 +50,8 @@ li {
 }
 
 
+/* Estilizando Section main */
+
 .section-main{
     height: 400px;
     font-family: 'Cinzel', serif;
@@ -100,9 +102,13 @@ li {
     transform: scale(0.95);
 }
 
+/* Estilizando Section Book Movies */
+
 .section-books-movies {
  font-family: 'Cinzel', serif;
- background-color: #3F5137;
+ background-image: url(../img/labirinto.webp);
+ background-position: center;
+ background-size: cover;
  color: #B2B179;
 }
 
@@ -152,4 +158,26 @@ li {
    display: inline-block;
    width: 450px;
    height: 350px;
+}
+
+
+/* Estilizando Footer */
+
+.footer {
+    height: 20vh;
+    background-color: #3F5137;
+    display: flex;
+    justify-content: space-evenly;
+    color: #B2B179;
+}
+
+.aling {
+    display: flex;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+}
+
+.box-icones {
+    gap: 10px;
+    cursor: pointer;
 }
