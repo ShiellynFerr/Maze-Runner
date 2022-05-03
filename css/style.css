@@ -129,6 +129,8 @@ li {
 .figure-movies h2 {
     text-align: center;
     padding: 20px 20px;
+    background-color: #1b384077;
+    margin: 5px 0;
 }
 
 
@@ -147,6 +149,8 @@ li {
 .characters h2{
     text-align: center;
     padding: 20px 20px;
+    background-color: #1b384077;
+    margin: 5px 0;
 }
 
 .characters .figure-characters {
